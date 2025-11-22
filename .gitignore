@@ -1,22 +1,24 @@
 # === Rust / Cargo ===
-target/
-Cargo.lock
+/target/
 
-# If this is a binary app (NOT a library), you MAY keep Cargo.lock.
-# If it's a library, IGNORE the lock file.
+# If this is a library crate, you can also ignore Cargo.lock.
+# For an app/binary, it's OK (and common) to commit Cargo.lock.
+# Cargo.lock
 
-# === OS Files ===
+# === macOS junk ===
 .DS_Store
-Thumbs.db
+.AppleDouble
+.LSOverride
+._*
 
 # === Logs ===
 *.log
 
-# === IDE / Editor ===
-# VS Code
+# === Editor / IDE ===
 .vscode/
 .idea/
-
-# === Misc ===
 *.swp
 *.swo
+
+# === Misc ===
+*.tmp
