@@ -1,1 +1,7 @@
-/target
+target/
+.DS_Store
+.env
+.env.*
+!.env.example
+logs/
+*.log
